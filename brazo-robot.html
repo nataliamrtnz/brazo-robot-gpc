@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Práctica 2 - Brazo Robot</title>
+
+    <style>
+        body {
+            background-color: #000;
+            margin: 0px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container"></div>
+
+    <div id="mensaje" style="
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: black;
+        background: white;
+        padding: 15px 30px;
+        border-radius: 10px;
+        font-family: Arial, sans-serif;
+        font-size: 26px;
+        font-weight: bold;
+        z-index: 10;
+        white-space: nowrap;
+    "></div>
+
+    <!-- Bibliotecas -->
+    <script src="lib/three.min_r140.js"></script>
+    <script src="lib/OrbitControls.js"></script>
+
+    <!-- Mi código -->
+    <script src="js/brazo-robot.js"></script>
+
+</body>
+</html>
